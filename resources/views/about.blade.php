@@ -3,14 +3,14 @@
 @section('content')
     <div class="container">
         <div class="page-header">
-            <h2>О центре</h2>
+            <h3>О центре</h3>
         </div>
         <div class="row">
             <div class="col-md-10 col-md-offset-1" style="background: rgba(255,255,255,0.4); padding-top: 15px">
 
-                    <div  >
+                    <div >
                         <div class="col-md-4" >
-                            <img src="images/pastor_2.jpg"  width="250" alt>
+                            <img src="images/vitaly.jpg"  width="250" alt>
                         </div>
                         <div class="col-md-8" >
                            <p style="font-weight: bold;color: #000000;">
@@ -37,8 +37,7 @@
                                Я молюсь, что бы Бог показал тебе жертву угодную Ему и пусть умножение придет в твою жизнь!
 
                                Пусть Бог благословит каждого из вас! Ценю и люблю Вас!
-
-                               Апостол Владимир Мунтян
+							   
 
                            </p>
                         </div>

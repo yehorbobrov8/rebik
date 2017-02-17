@@ -10,6 +10,7 @@
     <!-- Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -52,33 +53,40 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}" style="color: rgb(255,255,255); font-weight: bold; font-size: 18px; font-family:'Lucida Sans Unicode'">
-                     Милосердие-Днепр
+                     <img src="images/logo.png"  alt>
                 </a>
             </div>
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
-                <ul class="nav navbar-nav">
-                    <li><a style="color: rgb(255,255,255); font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/home') }}">Главная</a></li>
-                    <li><a style="color: rgb(255,255,255); font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/about') }}">О центре</a></li>
-                    <li><a style="color: rgb(255,255,255); font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/admin') }}">Реабилитация</a></li>
-                    <li><a style="color: rgb(255,255,255); font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/evidence') }}">Свидетельства</a></li>
-                    <li><a style="color: rgb(255,255,255); font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/admin') }}">Галерея</a></li>
-                    <li><a style="color: rgb(255,255,255); font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/contacts') }}">Контакты</a></li>
+                <ul class="nav navbar-nav navbar-right" style="margin-top:30px">
+                    <li><a style="color: #FFF5EE; font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/home') }}">Главная</a></li>
+                    <li><a style="color: #FFF5EE; font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/about') }}">О центре</a></li>
+                    <li><a style="color: #FFF5EE; font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/evidence') }}">Свидетельства</a></li>
+                    <li><a style="color: #FFF5EE; font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/gallery') }}">Галерея</a></li>
+                    <li><a style="color: #FFF5EE; font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/contacts') }}">Контакты</a></li>
 
 
                 </ul>
 
-                <!-- Right Side Of Navbar -->
-                <ul class="nav navbar-nav navbar-right">
-                    @include('auth.partials.navbar')
-                </ul>
+              
             </div>
         </div>
     </nav>
 
     @yield('content')
+<footer>
+<div class="col-md-12">
+                    <ul class="social-network social-circle" style="list-style-type: none">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>				
+				</div>
 
+</footer>
     <!-- JavaScripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
