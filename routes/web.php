@@ -11,14 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 Route::get('/about', 'HomeController@about');
 Route::get('/evidence', 'HomeController@evidence');
 Route::get('/contacts', 'HomeController@contacts');
 Route::get('/gallery', 'HomeController@gallery');
-
+Route::get('/home', 'HomeController@index');
+Route::get('/', 'HomeController@index');
 
 /*
 |--------------------------------------------------------------------------
@@ -34,5 +33,4 @@ Route::get('/gallery', 'HomeController@gallery');
 Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
-    Route::get('/home', 'HomeController@index');
 });
