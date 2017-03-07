@@ -64,7 +64,8 @@
                     <li><a style="color: #FFF5EE; font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/about') }}">О центре</a></li>
                     <li><a style="color: #FFF5EE; font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/evidence') }}">Свидетельства</a></li>
                     <li><a style="color: #FFF5EE; font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/gallery') }}">Галерея</a></li>
-                    <li><a style="color: #FFF5EE; font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/contacts') }}">Контакты</a></li>
+                    <li><a style="color: #FFF5EE; font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/changes') }}">До и после</a></li>
+					<li><a style="color: #FFF5EE; font-weight: bold; font-size: 16px; font-family: 'Lucida Sans Unicode'" href="{{ url('/contacts') }}">Контакты</a></li>
 
 
                 </ul>

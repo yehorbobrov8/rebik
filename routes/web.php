@@ -16,6 +16,7 @@ Route::get('/about', 'HomeController@about');
 Route::get('/evidence', 'HomeController@evidence');
 Route::get('/contacts', 'HomeController@contacts');
 Route::get('/gallery', 'HomeController@gallery');
+Route::get('/changes', 'HomeController@changes');
 Route::get('/home', 'HomeController@index');
 Route::get('/', 'HomeController@index');
 

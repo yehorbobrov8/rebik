@@ -14,7 +14,6 @@ class HomeController extends Controller
         return view('home');
     }
 
-
     public function about()
     {
         return view('about');
@@ -24,6 +23,7 @@ class HomeController extends Controller
     {
         return view('evidence');
     }
+	
     public function contacts()
     {
         return view('contacts');
@@ -32,5 +32,10 @@ class HomeController extends Controller
 	public function gallery()
     {
         return view('gallery');
+    }
+	
+	public function changes()
+    {
+        return view('changes');
     }
 }
