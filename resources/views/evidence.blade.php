@@ -25,10 +25,35 @@
 
 
             <div class="col-sm-6 thumbnail">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/vpaAiQkzWXY"></iframe>
-                        </div>
-                    </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/vpaAiQkzWXY"></iframe>
+                </div>
+            </div>
+			
+			<div class="col-sm-6 thumbnail">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/UNnqs6ScJF8"></iframe>
+                </div>
+            </div>
+			
+			
+			<div class="col-sm-6 thumbnail">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/2NN1sc29wPk"></iframe>
+                </div>
+            </div>
+			
+			<div class="col-sm-6 thumbnail">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/LoUJaPWaN_0"></iframe>
+                </div>
+            </div>
+			
+			<div class="col-sm-6 thumbnail">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/hxBZR4HPgVY"></iframe>
+                </div>
+            </div>
 
         </div>
     </div>
