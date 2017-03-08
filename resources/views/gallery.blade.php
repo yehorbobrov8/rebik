@@ -39,7 +39,7 @@
       <img class="img-responsive" src="images/gal_7.jpg" alt="...">
     </div>
 	<div class="item">
-      <img class="img-responsive" src="images/gal_8.jpg" alt="...">
+      <img class="img-responsive" src="images/gal_11.jpg" alt="...">
     </div>
 	<div class="item">
       <img class="img-responsive" src="images/gal_9.jpg" alt="...">

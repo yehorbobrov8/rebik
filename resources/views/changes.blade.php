@@ -55,6 +55,10 @@
     </div><div class="item">
       <img class="img-responsive" src="images/ch12.jpg" alt="...">
     </div>
+	
+	<div class="item">
+      <img class="img-responsive" src="images/ch14.jpg" alt="...">
+    </div>
     
   </div>
 
